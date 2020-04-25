@@ -1,0 +1,26 @@
+{
+    "id": "be.dazzle.vtiger",
+    "name": "vTiger plugin",
+    "version": "0.0.6",
+    "server": {
+        "executable": "vtiger"
+    },
+    "settings_schema": {
+        "settings": [{
+            "key":  "UserName",
+            "display_name": "vTiger User Name",
+            "help_text": "The user name of the vTiger API user.",
+            "type": "text"
+        }, {
+            "key": "AccessKey",
+            "display_name": "vTiger Access Key",
+            "help_text": "You can find this access key at the bottom of the API user's user page.",
+            "type": "text"
+        }, {
+            "key": "BaseUrl",
+            "display_name": "vTiger Base URL",
+            "help_text": "The URL of your vTiger installation, e.g. https://vtiger.example.com/.",
+            "type": "text"
+        }]
+    }
+}
